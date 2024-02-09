@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Rate Calculator";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Calculate the rate for my services here.</p>
+<label for="hourlyRate">My hourly rate:</label>
+<input type="text" id="hourlyRate" value="599" readonly> <!-- Using input with readonly attribute -->
+<form>
+    <label for="numHours">How many hours will you need?:</label><br />
+    <input id="numHours" /><br />
+    <button type="button" id="calculateBtn">Calculate Total</button><br />
+    <label for="total">TOTAL:</label>
+    <input type="text" id="total" readonly> <!-- Using input with readonly attribute -->
+</form>
