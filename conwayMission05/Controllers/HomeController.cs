@@ -13,11 +13,13 @@ namespace conwayMission05.Controllers
             _logger = logger;
         }
 
+        //home page route
         public IActionResult Index()
         {
             return View();
         }
 
+        //route for the calculator page
         public IActionResult Calculator()
         {
             return View();
